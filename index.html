@@ -1,35 +1,258 @@
 <!DOCTYPE html>
 <html>
-<title>Dibakar Aditya</title>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
-<style>
-body,h1 {font-family: "Raleway", sans-serif}
-body, html {height: 100%}
-.bgimg {
-    background-image: url('./assets/images/dark-road-clouds-over-landscape-view-front-al-1920x1080.jpg');
-    min-height: 100%;
-    background-position: center;
-    background-size: cover;
-}
-</style>
+
+<head>
+  <title>Dibakar Aditya</title>
+  <meta name="description" content="Web designer and front-end developer">
+  <link rel="shortcut icon" type="image/png" href="./images/da-logo.png"/>
+  <link href='https://fonts.googleapis.com/css?family=Raleway:100,200,400,600' rel='stylesheet' type='text/css'>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.7.4/jquery.fullPage.css" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+  <link rel="stylesheet" href="./css/main.css">
+</head>
+
 <body>
+  <!-- navbar header -->
+  <div class="nav-header">
+    <div class="nav-brand">
+        <a href="#home"><img src="./images/da-logo-icon.png"><span>DIBAKAR ADITYA</span></a>
+    </div>
+    <i class="fa fa-bars fa-2x"></i>
+    <div class="header-links">
+      <ul>
+        <li data-menuanchor="fourthPage">
+          <a href="#contact"><i class="fa fa-envelope fa-fw icon-margin-right"></i>CONTACT</a>
+        </li>
+        <li data-menuanchor="thirdPage">
+          <a href="#portfolio"><i class="fa fa-th-large fa-fw icon-margin-right"></i>PORTFOLIO</a>
+        </li>
+        <li data-menuanchor="secondPage">
+          <a href="#about"><i class="fa fa-user fa-fw icon-margin-right"></i>ABOUT</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <!-- end navbar header -->
 
-<div class="bgimg w3-display-container w3-animate-opacity w3-text-white">
-  <div class="w3-display-topleft w3-padding-large w3-xlarge">
-    Logo
+  <!-- sidebar slider -->
+  <div class="nav-screen">
+    <i class="fa fa-times fa-2x"></i>
+    <div class="nav-container">
+      <div class="nav-links">
+        <ul id='myMenu'>
+          <li data-menuanchor="firstPage">
+            <a href="#home"><i class="fa fa-home fa-fw icon-margin-right"></i>HOME</a>
+          </li>
+          <li data-menuanchor="secondPage">
+            <a href="#about"><i class="fa fa-user fa-fw icon-margin-right"></i>ABOUT</a>
+          </li>
+          <li data-menuanchor="thirdPage">
+            <a href="#portfolio"><i class="fa fa-th-large fa-fw icon-margin-right"></i>PORTFOLIO</a>
+          </li>
+          <li data-menuanchor="fourthPage">
+            <a href="#contact"><i class="fa fa-envelope fa-fw icon-margin-right"></i>CONTACT</a>
+          </li>
+        </ul>
+      </div>
+    </div>
   </div>
-  <div class="w3-display-middle">
-    <h1 class="w3-jumbo w3-animate-top">Dibakar D. Aditya</h1>
-    <hr class="w3-border-grey" style="margin:auto;width:40%">
-    <p class="w3-large w3-center">This site is under construction...</p>
-  </div>
-  <div class="w3-display-bottomleft w3-padding-large">
-    Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a>
-  </div>
-</div>
+  <!-- end navbar slider -->
 
+
+
+  <!-- begin fullpage -->
+
+  <div id="fullpage">
+
+    <!-- begin section -->
+
+    <div class="section aboutme" data-anchor="aboutme">
+      <div class="opaque-bg animated fadeInDown">
+        <p><img style="width:150px;" src="./images/da-logo.png"></p>
+        <h1 style="color:white">DIBAKAR
+          <span style="color:#73FFFF">/</span>ADITYA</h1>
+        <p>
+          <span id="holder"></span>
+          <span class="blinking-cursor">|</span>
+        </p>
+      </div>
+      <i id="moveDown" class="fa fa-chevron-down fa-3x bounce"></i>
+    </div>
+    <!-- end section -->
+
+    <!-- begin section -->
+
+    <div class="section" data-anchor="skills">
+      <div class="content">
+        <h1 class="wow fadeInDown" data-wow-delay="0.2s">ABOUT ME</h1>
+        <p class="wow fadeInDown" data-wow-delay="0.2s">Hi, I'm Dibakar Aditya!</br>I'm a Bangalore based software professional and aspiring computer programmer.
+          Having spent a chunk of my life in various job roles, I've finally found my passion at the crossroads of design and technology.</br>Here's a brief indication of my key technical and creative skills as follows:</p>
+
+        <div class=" wow fadeInUp container-skillbar" data-wow-delay="0.2s">
+          <div class="skillbar clearfix " data-percent="50%">
+            <div class="skillbar-title" style="background: #00B2B2;">
+              <span>HTML</span>
+            </div>
+            <div class="skillbar-bar" style="background: #00D9D9;"></div>
+            <div class="skill-bar-percent">50%</div>
+          </div>
+          <!-- End Skill Bar -->
+
+          <div class="skillbar clearfix " data-percent="40%">
+            <div class="skillbar-title" style="background: #00B2B2;">
+              <span>CSS</span>
+            </div>
+            <div class="skillbar-bar" style="background: #00D9D9;"></div>
+            <div class="skill-bar-percent">40%</div>
+          </div>
+          <!-- End Skill Bar -->
+
+          <div class="skillbar clearfix " data-percent="30%">
+            <div class="skillbar-title" style="background: #00B2B2;">
+              <span>Javascript</span>
+            </div>
+            <div class="skillbar-bar" style="background: #00D9D9;"></div>
+            <div class="skill-bar-percent">30%</div>
+          </div>
+          <!-- End Skill Bar -->
+
+          <div class="skillbar clearfix " data-percent="65%">
+            <div class="skillbar-title" style="background: #00B2B2;">
+              <span>Photoshop</span>
+            </div>
+            <div class="skillbar-bar" style="background: #00D9D9;"></div>
+            <div class="skill-bar-percent">65%</div>
+          </div>
+          <!-- End Skill Bar -->
+
+          <div class="skillbar clearfix " data-percent="70%">
+            <div class="skillbar-title" style="background: #00B2B2;">
+              <span>Illustrator</span>
+            </div>
+            <div class="skillbar-bar" style="background: #00D9D9;"></div>
+            <div class="skill-bar-percent">70%</div>
+          </div>
+          <!-- End Skill Bar -->
+
+          <div class="skillbar clearfix " data-percent="65%">
+            <div class="skillbar-title" style="background: #00B2B2;">
+              <span>Flare</span>
+            </div>
+            <div class="skillbar-bar" style="background: #00D9D9;"></div>
+            <div class="skill-bar-percent">65%</div>
+          </div>
+          <!-- End Skill Bar -->
+        </div>
+      </div>
+    </div>
+    <!-- end section -->
+
+    <!-- begin section -->
+
+    <div class="section" data-anchor="projects">
+      <div class="content-slide">
+        <div class="slide">
+          <h1 class="wow fadeInDown" data-wow-delay="0.2s">XFAIRE</h1>
+          <p class="wow fadeInDown" data-wow-delay="0.2s">Digital streaming service</p>
+          <img class="wow fadeInUp" data-wow-delay="0.2s" data-src="https://s3-us-west-2.amazonaws.com/bradengelhardt/assets/xfaire.jpg">
+        </div>
+        <div class="slide">
+          <h1>MACHETE ENERGY</h1>
+          <p>Energy drink website</p>
+          <img data-src="https://s3-us-west-2.amazonaws.com/bradengelhardt/assets/machete.jpg">
+        </div>
+        <div class="slide">
+          <h1>PORTFOLIO</h1>
+          <p>Mockup of a personal portfolio I was working on for a friend.</p>
+          <img data-src="https://s3-us-west-2.amazonaws.com/bradengelhardt/assets/cascioportfolio.jpg">
+        </div>
+        <div class="slide">
+          <h1>THATONEBLOG</h1>
+          <p>Minimalist blogging platform.</p>
+          <img data-src="https://s3-us-west-2.amazonaws.com/bradengelhardt/assets/blog.jpg">
+        </div>
+        <div class="slide">
+          <h1>PIXBORED</h1>
+          <p>Website for sharing images and gifs.</p>
+          <img data-src="https://s3-us-west-2.amazonaws.com/bradengelhardt/assets/pixbored.jpg">
+        </div>
+        <div class="slide">
+          <h1>PERSONAL WEBSITE</h1>
+          <p>Responsive vertical/horizontal header website theme.</p>
+          <img data-src="https://s3-us-west-2.amazonaws.com/bradengelhardt/assets/personalsite.jpg">
+        </div>
+      </div>
+    </div>
+    <!-- end section -->
+
+    <!-- begin section -->
+
+    <div class="section" data-anchor="contact">
+      <div class="content wow fadeInDown" data-wow-delay="0.2s">
+        <h1>CONTACT ME</h1>
+        <p>Whether you're interested in working with me or just want to say hello, I'd love to hear from you!</p>
+        <br>
+        <div>
+          <div class="w3-third w3-dark-grey">
+            <p><i class="fa fa-envelope w3-xxlarge w3-text-light-grey"></i></p>
+            <p class="font-white">email@email.com</p>
+          </div>
+          <div class="w3-third w3-teal">
+            <p><i class="fa fa-map-marker w3-xxlarge w3-text-light-grey"></i></p>
+            <p class="font-white">Bangalore, IN</p>
+          </div>
+          <div class="w3-third w3-dark-grey">
+            <p><i class="fa fa-phone w3-xxlarge w3-text-light-grey"></i></p>
+            <p class="font-white">+91 953 811 2383</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- end section -->
+
+    <!-- begin section -->
+
+    <div class="fp-auto-height">
+      <div class="footer">
+        <p>CONNECT WITH ME</p>
+        <div class="social-links">
+          <span>
+            <a href="https://www.linkedin.com/in/dibakar-aditya" target="_blank">
+              <i class="fa fa-linkedin fa-2x"></i>
+            </a>
+          </span>
+          <span>
+            <a target="_blank" href="https://facebook.com/dibakar.aditya" target="_blank">
+              <i class="fa fa-facebook fa-2x"></i>
+            </a>
+          </span>
+          <span>
+            <a href="https://github.com/addib" target="_blank">
+              <i class="fa fa-github fa-2x"></i>
+            </a>
+          </span>
+          <span>
+            <a href="https://codepen.io/addib/pens/public/" target="_blank">
+              <i class="fa fa-codepen fa-2x"></i>
+            </a>
+          </span>
+        </div>
+      </div>
+    </div>
+    <!-- end section -->
+
+  </div>
+  <!-- end fullpage -->
+
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="https://s3-us-west-2.amazonaws.com/parallax-theme/assets/wow.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.7.4/jquery.fullPage.min.js"></script>
+  <script src="./js/main.js"></script>
 </body>
+
 </html>
