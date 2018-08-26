@@ -552,6 +552,10 @@ label {
   .header-links {
     display: none;
   }
+
+  .nav-brand {
+    display: none !important;
+  }
 }
 
 /* mobile styles */
