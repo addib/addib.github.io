@@ -513,19 +513,23 @@ label {
 /* footer styles */
 
 .footer {
-  background-color: #484848;
   height: 100px;
+  width: 160px;
   padding-top: 10px;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  left: 20px;
 }
 
 .footer p {
-  color: white;
+  color: #6b6b6b;
   font-weight: bold;
   font-size: 16px;
 }
 
 .social-links a {
-  color: white;
+  color: #6b6b6b;
   padding: 0px 5px 0px 5px;
 }
 
