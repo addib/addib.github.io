@@ -80,17 +80,17 @@ p {
   position: fixed;
   left: 0;
   z-index: 600;
-  padding: 10px;
+  padding-left: 20px;
   display: none;
 }
 
 .nav-brand img {
-  width: 40px;
+  width: 82px;
 }
 
 .nav-brand span {
   font-size: 20px;
-  color: black;
+  color: #00D9D9;
   margin-left: 10px;
 }
 
@@ -544,7 +544,7 @@ label {
 
 /* smaller resolution styles */
 
-@media (min-width: 100px) and (max-width: 500px) {
+@media (min-width: 100px) and (max-width: 720px) {
   .fa-bars {
     display: block !important;
   }
