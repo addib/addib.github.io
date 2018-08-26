@@ -169,7 +169,7 @@ p {
 }
 
 #fp-nav ul li .fp-tooltip {
-  color: #5f5f5f !important;
+  color: #5f5f5f;
 }
 
 /* Expanding border effect */
@@ -402,7 +402,7 @@ p {
 
 #fp-nav ul li a span,
 .fp-slidesNav ul li a span {
-  background: rgba(0, 0, 0, 0.62) !important;
+  background: rgba(0, 0, 0, 0.62);
 }
 
 /* contact us styles */

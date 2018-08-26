@@ -82,6 +82,8 @@ $(document).ready(function() {
           $(this).css('color','white')
         });
         $('.header-links').css("background-color","transparent");
+        $('#fp-nav ul li a span').css("background-color","white");
+        $('.fp-tooltip').css("color","white");
       }
 
       else if(index!=1){
@@ -89,6 +91,8 @@ $(document).ready(function() {
           $(this).css('color','black')
         });
         $('.header-links').css('background-color', 'white');
+        $('#fp-nav ul li a span').css("background-color","gray");
+        $('.fp-tooltip').css("color","gray");
       }
 
       //using index
