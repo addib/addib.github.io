@@ -82,6 +82,8 @@ $(document).ready(function() {
           $(this).css('color','white')
         });
         $('.header-links').css("background-color","transparent");
+        $('.header-links').css('box-shadow', 'none');
+        $('.nav-brand').css("display","none");
         $('#fp-nav ul li a span').css("background-color","white");
         $('.fp-tooltip').css("color","white");
       }
@@ -91,6 +93,8 @@ $(document).ready(function() {
           $(this).css('color','black')
         });
         $('.header-links').css('background-color', 'white');
+        $('.header-links').css('box-shadow', '0px 1px 10px 0px #cccccc');
+        $('.nav-brand').css("display","block");
         $('#fp-nav ul li a span').css("background-color","gray");
         $('.fp-tooltip').css("color","gray");
       }
