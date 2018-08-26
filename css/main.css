@@ -89,15 +89,14 @@ p {
 }
 
 .nav-brand span {
-  font-size: 16px;
-  font-weight: 1000;
-  color: gray;
+  font-size: 20px;
+  color: black;
   margin-left: 10px;
 }
 
 .fa-bars {
   display: none !important;
-  color: #00D9D9;
+  color: white;
   float: right;
   padding: 20px;
   position: fixed;
@@ -107,7 +106,7 @@ p {
 }
 
 .fa-times {
-  color: #00D9D9;
+  color: white;
   float: right;
   padding: 20px;
   right: 0;
@@ -159,7 +158,7 @@ p {
 
 .nav-links a {
   color: #ffffff;
-  font-size: 30px;
+  font-size: 25px;
   line-height: 2.5;
   font-weight: bold;
   text-decoration: none;
@@ -212,7 +211,7 @@ p {
 }
 
 .aboutme {
-  background: url("../images/runway_bg.jpg")
+  background: url("../images/web-developer-wallpaper.jpg")
     no-repeat;
   background-size: cover;
 }
@@ -714,4 +713,8 @@ label {
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
   border-radius: 4px;
+}
+
+.icon-margin-right {
+  margin-right: 5px;
 }
