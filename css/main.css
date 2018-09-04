@@ -529,13 +529,13 @@ label {
 }
 
 .footer p {
-  color: #6b6b6b;
+  color: #9b9b9b;
   font-weight: bold;
-  font-size: 16px;
+  font-size: 11px;
 }
 
 .social-links a {
-  color: #6b6b6b;
+  color: #9b9b9b;
   padding: 0px 5px 0px 5px;
 }
 
@@ -735,8 +735,4 @@ label {
 
 .w3-third {
   padding-top: 10px;
-}
-
-.font-white {
-  color: white;
 }
