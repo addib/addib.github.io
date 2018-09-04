@@ -151,14 +151,10 @@ p {
 
 .nav-links {
   width: 250px;
-  text-align: center;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 .nav-links ul {
   margin-top: 15%;
-  text-align: center;
   padding-top: 10%;
 }
 
@@ -520,7 +516,7 @@ label {
 
 .footer {
   height: 100px;
-  width: 160px;
+  width: 250px;
   padding-top: 10px;
   position: fixed;
   bottom: 0;
@@ -531,7 +527,7 @@ label {
 .footer p {
   color: #9b9b9b;
   font-weight: bold;
-  font-size: 11px;
+  font-size: 16px;
 }
 
 .social-links a {
@@ -559,7 +555,7 @@ label {
     display: none;
   }
 
-  .nav-brand {
+  .nav-brand, .fp-auto-height {
     display: none !important;
   }
 }
