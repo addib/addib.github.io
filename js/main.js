@@ -10,13 +10,13 @@ $(document).ready(function() {
             if(current < contentArray.length) {
                 elem.text(elem.text() + contentArray[current++]);
             }
-        }, 80);
+        }, 120);
     };
     
   })(jQuery);
 
   // input text for typing animation 
-  $("#holder").writeText("ASPIRING PROGRAMMER");
+  $("#holder").writeText("ASPIRING TECHNOLOGIST");
 
   // initialize wow.js
   new WOW().init();
